@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap');
+
+:root {
+  /* Primary colors */
+  --clr-soft-red: hsl(10, 79%, 65%);
+  --clr-cyan: hsl(186, 34%, 60%);
+
+  /* Neutral colors */
+  --clr-dark-brown: hsl(25, 47%, 15%);
+  --clr-medium-brown: hsl(28, 10%, 53%);
+  --clr-cream: hsl(27, 66%, 92%);
+  --clr-very-pale-orange: hsl(33, 100%, 98%);
+
+  /* Font size (body) */
+  --fs-body: 18px;
+
+  /* Font family (body) */
+  --ff-body: 'DM Sans', sans-serif;
+
+  /* Font weights */
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
