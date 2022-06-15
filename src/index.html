@@ -6,34 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
-  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" href="../dist/output.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="./script.js"></script>
   <title>Expenses Chart Component | Frontend Mentor</title>
 </head>
 
-<body>
-  <!-- My balance
-  $921.48
-  
-  Spending - Last 7 days
-  
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-  
-  Total this month
-  $478.33
-  
-  +2.4%
-  from last month -->
+<body class="bg-clr-cream min-h-screen flex justify-center items-center font-dm-sans">
+  <!-- container -->
+  <div class="w-full max-w-[30rem] p-5">
+    <div class="bg-clr-soft-red flex justify-between p-7 rounded-2xl text-clr-cream">
+      <div>
+        <p>My balance</p>
+        <p class="font-fw-700 text-3xl">$921.48</p>
+      </div>
+      <div>
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+    </div>
+    <div class="mt-5 p-7 rounded-2xl bg-clr-very-pale-orange">
+      <p class="text-2xl font-fw-700">Spending - Last 7 days</p>
+      <div>
+        <canvas id="myChart"></canvas>
+      </div>
+      <hr class="my-5">
+      <div class="flex justify-between items-end">
+        <div>
+          <p class="text-clr-medium-brown">Total this month</p>
+          <p class="text-5xl font-fw-700">$478.33</p>
+        </div>
+        <div>
+          <p class="font-fw-700 text-right">+2.4%</p>
+          <p class="text-clr-medium-brown">from last month</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <footer>
+  <!-- <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/waleedmumtaz">Waleed Mumtaz</a>.
-  </footer>
+  </footer> -->
 </body>
 
 </html>
