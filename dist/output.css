@@ -610,26 +610,6 @@ video {
   }
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-20{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.my-40{
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
 .mt-5{
   margin-top: 1.25rem;
 }
@@ -638,8 +618,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .flex{
@@ -656,30 +636,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.max-w-\[30rem\]{
-  max-width: 30rem;
-}
-
-.max-w-\[40rem\]{
-  max-width: 40rem;
-}
-
-.max-w-\[35rem\]{
-  max-width: 35rem;
-}
-
-.max-w-\[36rem\]{
-  max-width: 36rem;
-}
-
-.max-w-\[37rem\]{
-  max-width: 37rem;
-}
-
-.max-w-\[36\.5rem\]{
-  max-width: 36.5rem;
 }
 
 .items-end{
@@ -700,10 +656,6 @@ video {
 
 .rounded-2xl{
   border-radius: 1rem;
-}
-
-.border-2{
-  border-width: 2px;
 }
 
 .bg-clr-cream{
@@ -731,14 +683,8 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.text-center{
+  text-align: center;
 }
 
 .text-right{
@@ -749,33 +695,9 @@ video {
   font-family: var(--ff-body);
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-fs-body{
-  font-size: var(--fs-body);
 }
 
 .text-xl{
@@ -783,14 +705,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-sm{
@@ -810,6 +727,15 @@ video {
   color: var(--clr-medium-brown);
 }
 
+.text-clr-soft-red{
+  color: var(--clr-soft-red);
+}
+
+.underline{
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
 @media (min-width: 640px){
   .sm\:mb-2{
     margin-bottom: 0.5rem;
@@ -824,12 +750,12 @@ video {
     line-height: 2.25rem;
   }
 
+  .sm\:text-fs-body{
+    font-size: var(--fs-body);
+  }
+
   .sm\:text-5xl{
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-fs-body{
-    font-size: var(--fs-body);
   }
 }
