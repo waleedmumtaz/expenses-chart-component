@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Expenses Chart Component built with HTML and Tailwind CSS",
   "scripts": {
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "author": "Waleed Mumtaz",
   "license": "ISC",
