@@ -615,8 +615,31 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-40{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .flex{
@@ -639,6 +662,26 @@ video {
   max-width: 30rem;
 }
 
+.max-w-\[40rem\]{
+  max-width: 40rem;
+}
+
+.max-w-\[35rem\]{
+  max-width: 35rem;
+}
+
+.max-w-\[36rem\]{
+  max-width: 36rem;
+}
+
+.max-w-\[37rem\]{
+  max-width: 37rem;
+}
+
+.max-w-\[36\.5rem\]{
+  max-width: 36.5rem;
+}
+
 .items-end{
   align-items: flex-end;
 }
@@ -659,6 +702,10 @@ video {
   border-radius: 1rem;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
 .bg-clr-cream{
   background-color: var(--clr-cream);
 }
@@ -677,6 +724,21 @@ video {
 
 .p-7{
   padding: 1.75rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .text-right{
@@ -702,6 +764,40 @@ video {
   line-height: 1;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-fs-body{
+  font-size: var(--fs-body);
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-fw-700{
   font-weight: var(--fw-700);
 }
@@ -712,4 +808,28 @@ video {
 
 .text-clr-medium-brown{
   color: var(--clr-medium-brown);
+}
+
+@media (min-width: 640px){
+  .sm\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
+  .sm\:max-w-\[36rem\]{
+    max-width: 36rem;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-fs-body{
+    font-size: var(--fs-body);
+  }
 }

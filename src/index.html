@@ -14,28 +14,28 @@
 
 <body class="bg-clr-cream min-h-screen flex justify-center items-center font-dm-sans">
   <!-- container -->
-  <div class="w-full max-w-[30rem] p-5">
+  <div class="w-full sm:max-w-[36rem] p-5">
     <div class="bg-clr-soft-red flex justify-between p-7 rounded-2xl text-clr-cream">
       <div>
         <p>My balance</p>
-        <p class="font-fw-700 text-3xl">$921.48</p>
+        <p class="font-fw-700 text-2xl sm:text-3xl">$921.48</p>
       </div>
       <div>
         <img src="./images/logo.svg" alt="logo">
       </div>
     </div>
     <div class="mt-5 p-7 rounded-2xl bg-clr-very-pale-orange">
-      <p class="text-2xl font-fw-700">Spending - Last 7 days</p>
-      <div>
+      <p class="text-xl sm:text-3xl font-fw-700">Spending - Last 7 days</p>
+      <div class="py-5">
         <canvas id="myChart"></canvas>
       </div>
-      <hr class="my-5">
+      <hr class="mb-5">
       <div class="flex justify-between items-end">
         <div>
-          <p class="text-clr-medium-brown">Total this month</p>
-          <p class="text-5xl font-fw-700">$478.33</p>
+          <p class="text-clr-medium-brown sm:text-fs-body sm:mb-2">Total this month</p>
+          <p class="text-3xl sm:text-5xl font-fw-700">$478.33</p>
         </div>
-        <div>
+        <div class="sm:text-fs-body">
           <p class="font-fw-700 text-right">+2.4%</p>
           <p class="text-clr-medium-brown">from last month</p>
         </div>

@@ -83,6 +83,40 @@ const displayChart = async () => {
         legend: {
           display: false,
         },
+        tooltip: {
+          displayColors: false,
+          bodyFont: {
+            size: 18,
+            weight: 'bold',
+          },
+          padding: {
+            top: 6,
+            right: 8,
+            bottom: 3,
+            left: 8,
+          },
+          xAlign: 'center',
+          yAlign: 'top',
+          caretPadding: -40,
+          caretSize: 0,
+          callbacks: {
+            title: () => {
+              return
+            },
+            label: (context) => {
+              let label = ''
+
+              if (context.parsed.y !== null) {
+                label += new Intl.NumberFormat('en-US', {
+                  style: 'currency',
+                  currency: 'USD',
+                }).format(context.parsed.y)
+              }
+
+              return label
+            },
+          },
+        },
       },
     },
   }
